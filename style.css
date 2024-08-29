@@ -8,7 +8,7 @@ body {
     background-color: var(--cor-de-fundo);
 }
 
-.h1{
+.h1{ background-color: rgb(150, 231, 95);
     font-size: 350vw;
     color: rgb(255, 0, 0);
     align-items: center;
