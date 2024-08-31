@@ -1,0 +1,86 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles.css/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+.h1{ font-size: 3vw;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+}
+
+.livor{
+    color: black;
+}
+
+
+
+.tex{
+    font-size: 4vw;
+    text-align: center;
+    align-items: center;
+}
+
+.ima{
+ width: 272px;
+ height: 272px;
+
+}
+
+.di{  font-size: 250%;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+}
+
+
+:root {
+    --cor-de-fundo: #69c6ff;
+    --branco: #ffffff;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+}
+
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+.container {
+    width: 300;
+    height: 150;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+}
+
+.content {
+    width: 2399px; /* Largura para permitir rolagem horizontal */
+    display: inline-block;
+}
+
+.inner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+}
+
+button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
