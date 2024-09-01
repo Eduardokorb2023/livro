@@ -1,0 +1,75 @@
+.cabeçalho_oi{
+    width: 45%;
+    height: 45%;
+    background-image: url("../img/3pontos.jpeg");
+    background-repeat: no-repeat;
+    background-position:center ;
+    display: inline-block;
+}
+
+.po{
+    background-color: var(--branco);
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.p{
+    display:flex;
+    align-items: center;
+}
+
+.lado {
+   
+    align-items: center;
+}
+
+.lo{
+    padding: 1em;
+    
+    }
+
+
+    @media screen and (min-width: 1024px) {
+    
+        .container_titulo,
+        .container_titulo--negrito {
+            font-family: var(--fonte-secundario);
+            font-size: 30px;
+        }
+        
+        .container_titulo {
+            font-weight: 400;
+        }
+        
+        .container_titulo--negrito {
+            font-weight: 700;
+        }
+        
+    }
+    
+.lista{
+    display: none;
+    position: absolute;
+    top:100%;
+    width: 10vw;
+}
+
+.botão:checked ~ .lista{
+display:block;
+}
+
+.lista-item, 
+.lista-ti {
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.lista-link{
+    background: var(--verde) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
