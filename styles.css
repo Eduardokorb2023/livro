@@ -1,6 +1,6 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
-@import url("styles.css/carrossel.css");
+@import url("styles/carrossel.css");
 @import url("styles/topicos.css");
 @import url("styles/contato.css");
 @import url("styles/rodapé.css");
@@ -40,8 +40,11 @@
     --cor-de-fundo: #69c6ff;
     --branco: #ffffff;
     --laranja: #EB9B00;
-    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --verde:#8ac532;
     --fonte-principal: "Poppins";
+    --azul-degrade:#001d90;
+    --cinza:#666666;
+    --cinza-claro:#474747;
 }
 
 
@@ -81,6 +84,28 @@ button {
     cursor: pointer;
 }
 
+.lo{
+    height:45px;
+
+}
+
 button:hover {
     background-color: #0056b3;
 }
+
+.li{font-size: 2vw;
+    color: rgb(0, 0, 0);
+    text-align: center;}
+
+.aviso{font-size: 100%;
+        color: rgb(0, 0, 0);
+        text-align: center;}
+
+        .lista-ti{ font-size: 150%;
+            color: rgb(0, 85, 56);
+    
+        }
+        .lista-item {
+            font-size:150%;
+            color: #eef8ff;
+        }
